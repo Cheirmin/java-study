@@ -1,7 +1,10 @@
-package com.cheirmin.mythread;
+package com.cheirmin.mythread.c000;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author Cheirmin
+ */
 public class T01_WhatIsThread {
     private static class T1 extends Thread{
         @Override
@@ -18,8 +21,8 @@ public class T01_WhatIsThread {
     }
 
     public static void main(String[] args) {
-        //方法调用
-        new T1().run();
+        //方法调用--并没启动线程
+//        new T1().run();
         //启动线程
         new T1().start();
 
