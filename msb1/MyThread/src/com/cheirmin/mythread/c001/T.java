@@ -24,7 +24,7 @@ public class T implements Runnable{
 //        }
 //    }
 //
-//    public synchronized static void m2(){
+//    public  static void m2(){
 //         //锁的是O ,每次操作的时候，要去看这把锁是不是ok的
 //            count--;
 //            System.out.println(Thread.currentThread().getName() + " count= " +count);

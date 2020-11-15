@@ -1,4 +1,4 @@
-package com.cheirmin.mythread.c000;
+package com.cheirmin.mythread.c001;
 
 /**
  * @author Cheirmin
